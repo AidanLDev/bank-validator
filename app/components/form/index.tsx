@@ -10,15 +10,16 @@ export default function Form() {
   return (
     <div>
       <TextInput
-        value={accountNumber}
-        onChange={(value) => setAccountNumber(value)}
-        label="Account Number"
-      />
-      <TextInput
         value={sortCode}
         onChange={(value) => setSortCode(value)}
         label="Sort Code"
       />
+      <TextInput
+        value={accountNumber}
+        onChange={(value) => setAccountNumber(value)}
+        label="Account Number"
+      />
+
       <Validator accountNumber={accountNumber} sortCode={sortCode} />
     </div>
   );

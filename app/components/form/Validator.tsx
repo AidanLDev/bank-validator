@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { UkModulusChecking } from "uk-modulus-checking";
+import UkModulusChecking from "uk-modulus-checking";
 
 interface IValidatorProps {
   readonly accountNumber: string;

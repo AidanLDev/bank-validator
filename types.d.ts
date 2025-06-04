@@ -4,8 +4,10 @@ declare module "uk-modulus-checking" {
     sortCode: string;
   }
 
-  export class UkModulusChecking {
+  class UkModulusChecking {
     constructor(options: ModulusCheckingOptions);
     isValid(): boolean;
   }
+
+  export default UkModulusChecking;
 }
