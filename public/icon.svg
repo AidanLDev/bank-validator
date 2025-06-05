@@ -1,0 +1,11 @@
+<!-- filepath: /public/favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="shieldGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 4l24 8v16c0 16-12 28-24 32C20 56 8 44 8 28V12z" fill="url(#shieldGradient)"/>
+  <text x="32" y="40" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" fill="#fff" font-weight="bold">£</text>
+</svg>
