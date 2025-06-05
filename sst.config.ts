@@ -11,6 +11,11 @@ export default $config({
     };
   },
   async run() {
-    new sst.aws.Nextjs("MyWeb");
+    new sst.aws.Nextjs("MyWeb", {
+      domain: {
+        name: "bank-validator.aidanlowson.com",
+        redirects: ["www.bank-validator.aidanlowson.com"],
+      },
+    });
   },
 });

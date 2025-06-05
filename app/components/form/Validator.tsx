@@ -38,7 +38,7 @@ export default function Validator({ status }: IValidatorProps) {
       border: "1px solid #dc3545",
     };
   } else {
-    style = 
+    style = {
       background: "rgba(0, 123, 255, 0.15)",
       color: "#7BB7FF",
       border: "1px solid #007bff",
