@@ -16,6 +16,9 @@ export default $config({
         name: "bank-validator.aidanlowson.com",
         redirects: ["www.bank-validator.aidanlowson.com"],
       },
+      environment: {
+        NODE_ENV: "production",
+      },
     });
   },
 });
